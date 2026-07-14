@@ -46,7 +46,7 @@ I'm passionate about learning new technologies, solving real-world problems, and
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/rahulmardia/portfolio.git
 ```
 
 ### Navigate to the project
@@ -78,8 +78,8 @@ Add your deployed website link here.
 
 Feel free to connect with me for collaborations, opportunities, or feedback.
 
-* **LinkedIn:** Your LinkedIn Profile
-* **Email:** [your.email@example.com](mailto:your.email@example.com)
+* **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/rahulmardia/)
+* **Email:** [your.email@example.com](mailto:rahulmardia999@gmail.com)
 
 ## 📄 License
 
