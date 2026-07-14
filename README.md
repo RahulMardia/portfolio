@@ -72,7 +72,7 @@ Open `http://localhost:3000` in your browser to view the application.
 
 ## 🌐 Live Demo
 
-Add your deployed website link here.
+[Live Demo](https://rahulmardia.netlify.app/)
 
 ## 📬 Contact
 
