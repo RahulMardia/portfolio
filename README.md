@@ -78,8 +78,8 @@ Add your deployed website link here.
 
 Feel free to connect with me for collaborations, opportunities, or feedback.
 
-* **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/rahulmardia/)
-* **Email:** [your.email@example.com](mailto:rahulmardia999@gmail.com)
+* **LinkedIn:** [Rahul Mardia](https://www.linkedin.com/in/rahulmardia/)
+* **Email:** [Mail me](mailto:rahulmardia999@gmail.com)
 
 ## 📄 License
 
