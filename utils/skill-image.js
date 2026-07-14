@@ -57,6 +57,8 @@ import prisma from '../app/assets/svg/skills/prisma.svg';
 import python from '../app/assets/svg/skills/python.svg';
 import pytorch from '../app/assets/svg/skills/pytorch.svg';
 import react from '../app/assets/svg/skills/react.svg';
+import reactnative from '../app/assets/svg/skills/react.svg';
+import socket from '../app/assets/svg/skills/Socket.svg';
 import ruby from '../app/assets/svg/skills/ruby.svg';
 import selenium from '../app/assets/svg/skills/selenium.svg';
 import ubuntu from '../app/assets/svg/skills/Ubuntu.svg';
@@ -260,6 +262,10 @@ export const skillsImage = (skill) => {
       return ubuntu;
     case 'redux':
       return redux;
+    case 'reactnative':
+      return reactnative;
+    case 'socket':
+      return socket;
     default:
       break;
   }
