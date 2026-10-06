@@ -136,4 +136,14 @@ export const projectsData = [
     code: "",
     demo: "",
   },
+  {
+  id: 9,
+  name: 'AutoInventory (Car Dealership Management System)',
+  description: 'Architected and developed a full-stack MERN application for car dealership inventory management. Built secure RESTful APIs with JWT-based role authentication and integrated MongoDB using Mongoose. Created a responsive React.js frontend with centralized state management using Redux Toolkit, following Test-Driven Development (TDD) practices.',
+  tools: ['React', 'Redux Toolkit', 'Node.js', 'Express', 'MongoDB', 'Mongoose', 'JWT', 'REST API'],
+  role: 'Full Stack Developer',
+  code: 'https://github.com/RahulMardia/Car-Dealership-TDD', 
+  demo: 'https://car-dealership-new.netlify.app/dashboard', 
+  image: '', 
+},
 ];

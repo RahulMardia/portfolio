@@ -15,9 +15,18 @@ export const skillsData = [
   'Nginx',
   'Strapi',
   'Ubuntu',
+  'Linux',
   'Python',
   'Redux',
+  'Redux Toolkit',
   'ReactNative',
+  'Node.js',
+  'Express.js',
+  'NestJS',
+  'MongoDB',
+  
+  'RESTful APIs',
+  'JWT',
   'Socket',
 ]
 
