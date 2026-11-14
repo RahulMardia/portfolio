@@ -1,10 +1,14 @@
 import axios from 'axios';
 import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
+import { personalData } from '@/utils/data/personal-data';
+
+// Determine destination/sender email address (env variable or fallback to public personalData.email)
+const getTargetEmail = () => (process.env.EMAIL_ADDRESS || personalData.email)?.trim();
 
 // Helper function to create Nodemailer transporter
 function getTransporter() {
-  const user = process.env.EMAIL_ADDRESS?.trim();
+  const user = getTargetEmail();
   const pass = process.env.GMAIL_PASSKEY?.replace(/\s+/g, '');
 
   if (!user || !pass) {
@@ -66,9 +70,10 @@ async function sendEmail(payload, message) {
     return false;
   }
 
+  const targetEmail = getTargetEmail();
   const mailOptions = {
-    from: `"Portfolio Contact Form" <${process.env.EMAIL_ADDRESS?.trim()}>`,
-    to: process.env.EMAIL_ADDRESS?.trim(),
+    from: `"Portfolio Contact Form" <${targetEmail}>`,
+    to: targetEmail,
     subject: `New Portfolio Message From ${name}`,
     text: message,
     html: generateEmailTemplate(name, email, userMessage),
@@ -101,7 +106,8 @@ export async function POST(request) {
 
     const token = process.env.TELEGRAM_BOT_TOKEN?.trim();
     const chat_id = process.env.TELEGRAM_CHAT_ID?.trim();
-    const hasEmailConfig = Boolean(process.env.EMAIL_ADDRESS && process.env.GMAIL_PASSKEY);
+    const targetEmail = getTargetEmail();
+    const hasEmailConfig = Boolean(targetEmail && process.env.GMAIL_PASSKEY);
     const hasTelegramConfig = Boolean(token && chat_id);
 
     if (!hasEmailConfig && !hasTelegramConfig) {
