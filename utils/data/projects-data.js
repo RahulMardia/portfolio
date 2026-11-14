@@ -137,13 +137,107 @@ export const projectsData = [
     demo: "",
   },
   {
-  id: 9,
-  name: 'AutoInventory (Car Dealership Management System)',
-  description: 'Architected and developed a full-stack MERN application for car dealership inventory management. Built secure RESTful APIs with JWT-based role authentication and integrated MongoDB using Mongoose. Created a responsive React.js frontend with centralized state management using Redux Toolkit, following Test-Driven Development (TDD) practices.',
-  tools: ['React', 'Redux Toolkit', 'Node.js', 'Express', 'MongoDB', 'Mongoose', 'JWT', 'REST API'],
-  role: 'Full Stack Developer',
-  code: 'https://github.com/RahulMardia/Car-Dealership-TDD', 
-  demo: 'https://car-dealership-new.netlify.app/dashboard', 
-  image: '', 
-},
+    id: 9,
+    name: 'AutoInventory (Car Dealership Management System)',
+    description: 'Architected and developed a full-stack MERN application for car dealership inventory management. Built secure RESTful APIs with JWT-based role authentication and integrated MongoDB using Mongoose. Created a responsive React.js frontend with centralized state management using Redux Toolkit, following Test-Driven Development (TDD) practices.',
+    tools: ['React', 'Redux Toolkit', 'Node.js', 'Express', 'MongoDB', 'Mongoose', 'JWT', 'REST API'],
+    role: 'Full Stack Developer',
+    code: 'https://github.com/RahulMardia/Car-Dealership-TDD', 
+    demo: 'https://car-dealership-new.netlify.app/dashboard', 
+    image: '', 
+  },
+  {
+    id: 10,
+    name: "StockPulse AI - Stock Price Predictor",
+    description:
+      "Architected and developed a full-stack, machine learning-powered web application that forecasts next-day stock price directions (UP/DOWN) using historical market data and technical indicators. Built an interactive React and TypeScript frontend with TradingView Lightweight Charts, paired with a high-performance FastAPI backend. Integrated 17+ technical indicators (RSI, MACD, Bollinger Bands, SMA, EMA) and trained classification models (XGBoost, Random Forest, Logistic Regression) with dynamic model benchmarking.",
+    tools: [
+      "Python",
+      "FastAPI",
+      "Machine Learning",
+      "Scikit-learn",
+      "XGBoost",
+      "Pandas",
+      "NumPy",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "REST API"
+    ],
+    role: "Full Stack ML Developer",
+    code: "https://github.com/RahulMardia/StockPricePrediction",
+    demo: "",
+    image: "",
+  },
+  {
+    id: 11,
+    name: "FleetFlow - Fleet Management System",
+    description:
+      "Engineered an enterprise fleet management SaaS platform for real-time fleet vehicle tracking, analytics, and operational workflows. Developed a responsive, modern web interface leveraging Next.js 16 (App Router), React 19, and Tailwind CSS v4. Integrated Supabase for real-time database subscriptions, secure authentication, role-based access control, and robust team management.",
+    tools: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Supabase",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "REST API"
+    ],
+    role: "Full Stack Developer",
+    code: "https://github.com/RahulMardia/fleet_flow",
+    demo: "",
+    image: "",
+  },
+  {
+    id: 12,
+    name: "MultiEmailSender - Email Automation",
+    description:
+      "Built an AI-assisted multithreaded desktop automation utility in Python to automate bulk job applications and cold outreach. Designed a desktop GUI using Tkinter, featuring customizable email templates, automatic resume PDF attachments, recipient tracking, and Gmail SMTP integration with SSL/TLS. Implemented configurable delay intervals (30s/60s) to comply with email provider limits and maintain deliverability.",
+    tools: [
+      "Python",
+      "Tkinter",
+      "SMTP",
+      "Multithreading",
+      "SSL/TLS",
+      "Automation"
+    ],
+    role: "Python Developer",
+    code: "https://github.com/RahulMardia/MultiEmailSender",
+    demo: "",
+    image: "",
+  },
+  {
+    id: 13,
+    name: "CryptoInfo - Live Crypto Tracker",
+    description:
+      "Developed a clean, real-time cryptocurrency tracking application to monitor live cryptocurrency prices, market fluctuations, and key metrics across global coins. Built with responsive styling and optimized API integrations to fetch and display financial data efficiently with high performance.",
+    tools: [
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "REST API",
+      "Crypto API"
+    ],
+    role: "Frontend Developer",
+    code: "https://github.com/RahulMardia/cryptoinfo",
+    demo: "",
+    image: "",
+  },
+  {
+    id: 14,
+    name: "TodoList - Task Management App",
+    description:
+      "Created an intuitive and responsive task management web application built with React.js and JavaScript. Implemented real-time task creation, editing, status tracking (pending/completed), deletion, and local storage state persistence to streamline day-to-day productivity.",
+    tools: [
+      "React",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Local Storage"
+    ],
+    role: "Frontend Developer",
+    code: "https://github.com/RahulMardia/TodoList",
+    demo: "",
+    image: "",
+  },
 ];
